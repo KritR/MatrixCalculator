@@ -1,0 +1,332 @@
+﻿<Window x:Name="Begin" x:Class="Matrix_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Matrix Calculator" Height="451" Width="799">
+    <Grid>
+        <ComboBox x:Name="comboBoxMatrixSize" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,10,0,0" SelectionChanged="comboBoxMatrixSize_SelectionChanged" Cursor="Hand">
+            <ComboBoxItem Content="2x2" Cursor="Hand"/>
+            <ComboBoxItem Content="3x3" Cursor="Hand"/>
+            <ComboBoxItem Content="4x4" Cursor="Hand"/>
+            <ComboBoxItem Content="5x5" Cursor="Hand"/>
+            <ComboBoxItem Content="6x6" Cursor="Hand"/>
+            <ComboBoxItem Content="7x7" Cursor="Hand"/>
+            <ComboBoxItem Content="8x8" Cursor="Hand"/>
+            <ComboBoxItem Content="9x9" Cursor="Hand"/>
+            <ComboBoxItem Content="10x10" Cursor="Hand"/>
+            <ComboBoxItem Content="11x11" Cursor="Hand"/>
+            <ComboBoxItem Content="12x12" Cursor="Hand"/>
+            <ComboBoxItem Content="13x13" Cursor="Hand"/>
+            <ComboBoxItem Content="14x14" Cursor="Hand"/>
+            <ComboBoxItem Content="15x15" Cursor="Hand"/>
+            <ComboBoxItem Content="16x16" Cursor="Hand"/>
+            <ComboBoxItem Content="17x17" Cursor="Hand"/>
+            <ComboBoxItem Content="18x18" Cursor="Hand"/>
+            <ComboBoxItem Content="19x19" Cursor="Hand"/>
+            <ComboBoxItem Content="20x20" Cursor="Hand"/>
+            <ComboBoxItem Content="21x21" Cursor="Hand"/>
+            <ComboBoxItem Content="22x22" Cursor="Hand"/>
+            <ComboBoxItem Content="23x23" Cursor="Hand"/>
+            <ComboBoxItem Content="24x24" Cursor="Hand"/>
+            <ComboBoxItem Content="25x25" Cursor="Hand"/>
+            <ComboBoxItem Content="26x26" Cursor="Hand"/>
+            <ComboBoxItem Content="27x27" Cursor="Hand"/>
+            <ComboBoxItem Content="28x28" Cursor="Hand"/>
+            <ComboBoxItem Content="29x29" Cursor="Hand"/>
+            <ComboBoxItem Content="30x30" Cursor="Hand"/>
+            <ComboBoxItem Content="31x31" Cursor="Hand"/>
+            <ComboBoxItem Content="32x32" Cursor="Hand"/>
+            <ComboBoxItem Content="33x33" Cursor="Hand"/>
+            <ComboBoxItem Content="34x34" Cursor="Hand"/>
+            <ComboBoxItem Content="35x35" Cursor="Hand"/>
+            <ComboBoxItem Content="36x36" Cursor="Hand"/>
+            <ComboBoxItem Content="37x37" Cursor="Hand"/>
+            <ComboBoxItem Content="38x38" Cursor="Hand"/>
+            <ComboBoxItem Content="39x39" Cursor="Hand"/>
+            <ComboBoxItem Content="40x40" Cursor="Hand"/>
+            <ComboBoxItem Content="41x41" Cursor="Hand"/>
+            <ComboBoxItem Content="42x42" Cursor="Hand"/>
+            <ComboBoxItem Content="43x43" Cursor="Hand"/>
+            <ComboBoxItem Content="44x44" Cursor="Hand"/>
+            <ComboBoxItem Content="45x45" Cursor="Hand"/>
+            <ComboBoxItem Content="46x46" Cursor="Hand"/>
+            <ComboBoxItem Content="47x47" Cursor="Hand"/>
+            <ComboBoxItem Content="48x48" Cursor="Hand"/>
+            <ComboBoxItem Content="49x49" Cursor="Hand"/>
+            <ComboBoxItem Content="50x50" Cursor="Hand"/>
+            <ComboBoxItem Content="51x51" Cursor="Hand"/>
+            <ComboBoxItem Content="52x52" Cursor="Hand"/>
+            <ComboBoxItem Content="53x53" Cursor="Hand"/>
+            <ComboBoxItem Content="54x54" Cursor="Hand"/>
+            <ComboBoxItem Content="55x55" Cursor="Hand"/>
+            <ComboBoxItem Content="56x56" Cursor="Hand"/>
+            <ComboBoxItem Content="57x57" Cursor="Hand"/>
+            <ComboBoxItem Content="58x58" Cursor="Hand"/>
+            <ComboBoxItem Content="59x59" Cursor="Hand"/>
+            <ComboBoxItem Content="60x60" Cursor="Hand"/>
+            <ComboBoxItem Content="61x61" Cursor="Hand"/>
+            <ComboBoxItem Content="62x62" Cursor="Hand"/>
+            <ComboBoxItem Content="63x63" Cursor="Hand"/>
+            <ComboBoxItem Content="64x64" Cursor="Hand"/>
+            <ComboBoxItem Content="65x65" Cursor="Hand"/>
+            <ComboBoxItem Content="66x66" Cursor="Hand"/>
+            <ComboBoxItem Content="67x67" Cursor="Hand"/>
+            <ComboBoxItem Content="68x68" Cursor="Hand"/>
+            <ComboBoxItem Content="69x69" Cursor="Hand"/>
+            <ComboBoxItem Content="70x70" Cursor="Hand"/>
+            <ComboBoxItem Content="71x71" Cursor="Hand"/>
+            <ComboBoxItem Content="72x72" Cursor="Hand"/>
+            <ComboBoxItem Content="73x73" Cursor="Hand"/>
+            <ComboBoxItem Content="74x74" Cursor="Hand"/>
+            <ComboBoxItem Content="75x75" Cursor="Hand"/>
+            <ComboBoxItem Content="76x76" Cursor="Hand"/>
+            <ComboBoxItem Content="77x77" Cursor="Hand"/>
+            <ComboBoxItem Content="78x78" Cursor="Hand"/>
+            <ComboBoxItem Content="79x79" Cursor="Hand"/>
+            <ComboBoxItem Content="80x80" Cursor="Hand"/>
+            <ComboBoxItem Content="81x81" Cursor="Hand"/>
+            <ComboBoxItem Content="82x82" Cursor="Hand"/>
+            <ComboBoxItem Content="83x83" Cursor="Hand"/>
+            <ComboBoxItem Content="84x84" Cursor="Hand"/>
+            <ComboBoxItem Content="85x85" Cursor="Hand"/>
+            <ComboBoxItem Content="86x86" Cursor="Hand"/>
+            <ComboBoxItem Content="87x87" Cursor="Hand"/>
+            <ComboBoxItem Content="88x88" Cursor="Hand"/>
+            <ComboBoxItem Content="89x89" Cursor="Hand"/>
+            <ComboBoxItem Content="90x90" Cursor="Hand"/>
+            <ComboBoxItem Content="91x91" Cursor="Hand"/>
+            <ComboBoxItem Content="92x92" Cursor="Hand"/>
+            <ComboBoxItem Content="93x93" Cursor="Hand"/>
+            <ComboBoxItem Content="94x94" Cursor="Hand"/>
+            <ComboBoxItem Content="95x95" Cursor="Hand"/>
+            <ComboBoxItem Content="96x96" Cursor="Hand"/>
+            <ComboBoxItem Content="97x97" Cursor="Hand"/>
+            <ComboBoxItem Content="98x98" Cursor="Hand"/>
+            <ComboBoxItem Content="99x99" Cursor="Hand"/>
+            <ComboBoxItem Content="100x100" Cursor="Hand"/>
+        </ComboBox>
+        <Label Content="Matrix Size" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="135,6,0,0" Cursor=""/>
+        <Button x:Name="buttonSolveDet" Content="Solve Determinant" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="120" Margin="10,0,0,10" Click="buttonSolveDet_Click_1" Cursor="Hand"/>
+        <Button x:Name="buttonSolveInv" Content="Solve Inverse" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="89" Margin="135,0,0,10" Click="buttonSolveInv_Click_1" Cursor="Hand"/>
+        <Button x:Name="buttonClear" Content="Clear Matrix" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="79" Margin="229,0,0,10" Click="buttonClear_Click_1" Cursor="Hand"/>
+        <Button x:Name="buttonRandomInt" Content="Random Matrix" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="99" Margin="313,0,0,10" Click="buttonRandomInt_Click_1" Cursor="Hand"/>
+        <RichTextBox x:Name="richTextBoxOutput" HorizontalAlignment="Right" Width="212" Margin="0,36,10,37" VerticalScrollBarVisibility="Auto">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label Content="Output" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,37,30,0" Cursor="" Width="191" Background="White"/>
+        <ScrollViewer Margin="10,37,237,37" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" HorizontalScrollBarVisibility="Visible">
+            <Grid x:Name="grid1" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </ScrollViewer>
+        <GridSplitter HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="5"/>
+        <Button x:Name="buttonNewWindow" Content="Open In New Window" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0" Click="buttonNewWindow_Click_1" Cursor="Hand"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,28 @@
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\bin\Debug\Matrix Calculator.exe.config
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\bin\Debug\Matrix Calculator.exe
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\bin\Debug\Matrix Calculator.pdb
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\MainWindow.baml
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\App.g.cs
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix Calculator_MarkupCompile.cache
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix Calculator.g.resources
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix_Calculator.Properties.Resources.resources
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix Calculator.csproj.GenerateResource.Cache
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix Calculator.exe
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix Calculator.pdb
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\bin\Debug\Matrix Calculator.exe.config
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix Calculator.exe
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix Calculator.pdb
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\bin\Debug\Matrix Calculator.exe
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\bin\Debug\Matrix Calculator.pdb
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix Calculator.csprojResolveAssemblyReference.cache
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\MainWindow.baml
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\App.g.cs
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix Calculator_MarkupCompile.cache
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix Calculator.g.resources
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix_Calculator.Properties.Resources.resources
+C:\Users\damia\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\Matrix Calculator.csproj.GenerateResource.Cache
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\OutputWindow.baml
+C:\Users\Michael\Google Drive\Programming\C#\Matrices\Matrix Calculator\Matrix Calculator\obj\Debug\OutputWindow.g.cs
